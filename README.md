@@ -1,1 +1,1 @@
-# creatingeveryday.github.io
+# 공부 블로그입니다! 
