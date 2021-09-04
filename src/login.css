@@ -1,10 +1,5 @@
 
-#login-form input::placeholder{
-    color: black;
-    font-size: 13px;
-    
 
-}
 #login-form button{
   
   height: 30px;
@@ -30,4 +25,8 @@
                 0 -1px #000;
     color: white;
     
+}
+
+#login-form input {
+  background-color: white;
 }

@@ -20,6 +20,9 @@ li span {
     margin-top: 50px;
     margin-bottom: 28px;
 }
+#todo-form input {
+    background-color: white;
+}
 #todo-form input::placeholder {
     text-shadow: -1px 0 black,
                  0 1px  black,
