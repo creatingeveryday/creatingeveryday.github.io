@@ -1,23 +1,51 @@
 <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="src/style.css">
+    <title>ToDoList</title>
+  </head>
+  <body>
+    <div id="headPart">
+      <span id="clock" ></span>
+      <span id="quotes"></span>
+      <span id="weather"></span>
+    </div>
+    <div id="login-box">
+      <form id="login-form"class="hidden" >
+        <input required maxlength="13" type="text" placeholder="이름을 입력하세요." >
+        <span class="bar"></span>
+        <button id="loginbutton" >Log In</button>
+      </form>
+    </div>
+    
+    <div id="greeting" class="hidden" ></div> 
 
-<head>
-    <meta charset="UTF-8">
-    <title>My Laboratory</title>
-</head>
-<body>
-   <h1><a href="index.html">Hello ! Welcome To My Web World Laboratory !!!</a></h1> 
-<ol>
-    <li> <a href="html1.html">HTML</a></li>
-    <li> <a href="css2.html">CSS</a></li>
-    <li> <a href="javascript3.html">Javascript</a></li>
-    <li> <a href="nodejs4.html">Node.js</a></li>
-   
-</ol>
+    <div id="checkPomo">
+      <span class="hidden" id="pomoclock"></span>
+      <button id="pomodoro" type="button">Start</button>
+      <span id="showpomo" >달성한 뽀모도로 : 0번</span>
+      <button id="resetBtn" >Reset</button>
+    </div>
+    <div id="todoForm">
+    <form id="todo-form" > 
+      <input required type="text"  placeholder="Write What You Want To Do">
+      <span class="bar"></span>
+    </form>
+    </div>
+    <div id="todoList">
+      <ul id="todo-list"></ul>
+    </div>
+     
 
-   <h2>현재 준비중... </h2>
-   <p>웹페이지는 html - css - js 를 거치면서 어떻게 변할까? </p>
-   <p>웹페이지의 가능성 헤아려보기. 실습하기.</p>
-   <p>html css js node.js</p>
 
-</body>
+
+<script  src="src/quotes.js"></script>
+<script  src="src/backgroundimage.js"></script>
+<script  src="src/clock.js"></script>
+<script  src="src/todolist.js"></script>
+<script  src="src/login.js"></script>
+<script  src="src/pomodoro.js"></script>
+<script  src="src/weather.js"></script>
+  </body>
 </html>
